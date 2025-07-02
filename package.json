@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-without-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc && node build/app.js",
+    "dev-watch": "./node_modules/nodemon/bin/nodemon.js src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianStoev/Nodejs-Architecture-Without-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JulianStoev/Nodejs-Architecture-Without-Express/issues"
+  },
+  "homepage": "https://github.com/JulianStoev/Nodejs-Architecture-Without-Express#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "@types/cors": "^2.8.19",
+    "@types/node": "^24.0.8",
+    "cors": "^2.8.5",
+    "eslint": "^9.30.0",
+    "globals": "^16.3.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.35.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "mysql2": "^3.14.1"
+  }
+}
