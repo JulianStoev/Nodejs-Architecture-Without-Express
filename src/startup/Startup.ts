@@ -1,6 +1,6 @@
 import http from 'http';
 import Routes from './Routes';
-import { cors } from '../api/helpers/cors.helper';
+import { cors } from '../utils/api/cors.util';
 import { SERVER_HOST, SERVER_PORT } from '../config/server.config';
 import DbStartup from './Db.startup';
 import EventsStartup from './Events.startup';

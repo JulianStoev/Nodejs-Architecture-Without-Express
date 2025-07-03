@@ -1,6 +1,6 @@
 import { Req, Res } from "../../interfaces/node.iterface";
 import { RouterType } from "../../interfaces/router.interface";
-import { sendJSON } from "./res.helper";
+import { sendJSON } from "../api/res.util";
 
 export function buildRouter(router: RouterType, parsedUrl: string, req: Req, res: Res) {
     if (req.method === undefined) {

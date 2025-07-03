@@ -1,6 +1,6 @@
 import { Req, Res } from '../../interfaces/node.iterface';
 import { RouterType } from '../../interfaces/router.interface';
-import { sendJSON } from '../helpers/res.helper';
+import { sendJSON } from '../../utils/api/res.util';
 import { buildRouter } from '../helpers/router.helper';
 
 const router: RouterType = {
