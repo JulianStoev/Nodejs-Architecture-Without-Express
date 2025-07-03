@@ -1,4 +1,4 @@
-import { ParsedsUrl, Req, Res } from '../../interfaces/node.iterface';
+import { Req, Res } from '../../interfaces/node.iterface';
 import { RouterType } from '../../interfaces/router.interface';
 import { sendJSON } from '../helpers/res.helper';
 import { buildRouter } from '../helpers/router.helper';
@@ -9,7 +9,7 @@ const router: RouterType = {
     },
 };
 
-export default function HealthCheck(parsedUrl: ParsedsUrl, req: Req, res: Res): void {
+export default function HealthCheck(parsedUrl: string, req: Req, res: Res): void {
     buildRouter(router, parsedUrl, req, res);
 }
 

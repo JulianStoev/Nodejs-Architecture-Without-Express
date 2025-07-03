@@ -1,4 +1,4 @@
-import { ParsedsUrl, Req, Res } from "./node.iterface";
+import { Req, Res } from "./node.iterface";
 
 export type RouterType = {
     [key: string]: {
@@ -7,5 +7,5 @@ export type RouterType = {
 };
 
 export interface RoutesInterface {
-    [key: string]: (parsedsUrl: ParsedsUrl, req: Req, res: Res) => void;
+    [key: string]: (parsedsUrl: string, req: Req, res: Res) => void;
 }
